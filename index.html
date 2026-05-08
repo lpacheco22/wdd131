@@ -2,10 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Luis Pacheco</title>
+    <meta name="description"content="WDD 131 – Dynamic Web Fundamentals | Luis Pacheco | HTML, CSS, JavaScript, web development fundamentals">
+    <meta name="author" content="Luis Pacheco">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD131 - LP</h1>
+
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+
+        <nav>
+            <a href="https://www.linkedin.com/in/luis-pacheco-varas/" target="_blank">LinkedIn</a>
+            <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/12?lang=eng&id=p1#p1">
+                Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Luis Pacheco</h1>
+
+        <div class="cards-grid">
+            <section class="card">
+                <h2>About Me</h2>
+                <div class="card-body">
+                    <div class="about-top">
+                        <p>Hello! My name is Luis Pacheco. I was borned and raised in Guayaquil, Ecuador. I have been working in the mobile
+                        phones industry wholesale for over 12 years, sales and marketing. I have been married for 16 years and have two
+                        wonderful kids that I love so much.</p>
+                        <img src="images/foto-carnet-lp.jpeg" alt="Profile photo of [Luis Pacheco]" width="150" height="150">
+                    </div>
+        
+                    <div class="location-section">
+                        <h3>Guayaquil, Ecuador</h3>
+                        <div class="location-info">
+                            <figure>
+                                <img src="images/ecflag.jpg" alt="Official Flag of [Ecuador]" width="120" height="80">
+                                <figcaption>Official Flag of Ecuador</figcaption>
+                            </figure>
+                            <p>Ecuador is a wonderful country and one of the most biodiverse countries in the world. We have the mountains,
+                                rivers, beaches and of course, the Galapagos islands. We are also known for our delicious food, sepcially seafood.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="card">
+                <h2>Web Dev Resources</h2>
+                <div class="card-body">
+                    <ul class="resources-list">
+                        <li><a href="https://dev.to" target="_blank">Dev.to Community</a></li>
+                        <li><a href="https://www.smashingmagazine.com" target="_blank">Smashing Magazine</a></li>
+                        <li><a href="https://css-tricks.com" target="_blank">CSS Tricks</a></li>
+                        <li><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></li>
+                        <li><a href="https://www.udemy.com" target="_blank">Udemy</a></li>
+                        <li><a href="https://picsum.photos" target="_blank">Lorem Picsum Image Placeholder</a></li>
+                    </ul>
+                </div>
+            </section>
+        
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>©<span id="currentyear"></span> Luis Pacheco, Ecuador</p>
+
+        <p id="lastModified"></p>
+    </footer>
+   
 </body>
+
 </html>
