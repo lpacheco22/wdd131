@@ -44,13 +44,13 @@ header h1 {
     content: "✖";
 }
 
-.navigation {
+nav {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.navigation a {
+nav a {
     display: none;
     color: white;
     text-decoration: none;
@@ -59,12 +59,12 @@ header h1 {
     font-weight: bold;
     }
 
-.navigation a:hover {
+nav a:hover {
     background-color: #457b9d;
     color: #fff;
 }
 
-.open a {
+nav.open a {
     display: block;
 }
 
