@@ -4,14 +4,14 @@
         display: none;
     }
 
-    .navigation {
+    nav {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         gap: 1rem;
     }
 
-    .navigation a {
+    nav a {
         display: block;
     }
 
