@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecuador Country Page</title>
+
+    <link rel="stylesheet" href="styles/place.css" />
+    <link rel="stylesheet" href="styles/place-large.css" />
+
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ecuador</h1>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <picture>
+                <source srcset="images/ecuador-large.webp" media="(min-width: 768px)" />
+            
+                <img src="images/ecuador-small.webp" alt="Beautiful landscape of Ecuador" width="500" height="300" />
+            </picture>
+        </section>
+
+        <section class="content">
+
+            <section class="card">
+                <h2>Data</h2>
+
+                <p><strong>Capital:</strong> Quito</p>
+                <p><strong>Population:</strong> 18 Million</p>
+                <p><strong>Languages:</strong> Spanish</p>
+                <p><strong>Currency:</strong> US Dollar</p>
+                <p><strong>Time Zone:</strong> GMT -5</p>
+                <p><strong>Calling Code:</strong> +593</p>
+            </>
+
+            <section class="card weather">
+                <h2>Weather</h2>
+
+                <img src="images/weather.svg" alt="Weather Icon" class="weather-icon" />
+
+                <p><strong>Temperature:</strong> <span id="temperature">8</span> °C</p>
+
+                <p><strong>Conditions:</strong> Cloudy</p>
+
+                <p><strong>Wind:</strong> <span id="windspeed">10</span> km/h</p>
+
+                <p><strong>Wind Chill:</strong>
+                    <span id="windchill"></span>
+                </p>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> | Luis Pacheco | Ecuador
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
