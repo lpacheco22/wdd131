@@ -2,13 +2,12 @@
 
     .content {
         grid-template-columns: 1fr 1fr;
-        max-width: 1200px;
-        margin: 0 auto;
+        align-items: start;
     }
 
-        .weather h2::after {
-            content: " ⛅";
-        }
+    .weather h2::after {
+        content: " ⛅";
+    }
 
     .weather-icon {
         display: none;

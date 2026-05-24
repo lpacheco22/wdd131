@@ -63,3 +63,16 @@ footer {
     padding: 1rem;
     margin-top: 1rem;
 }
+
+img {
+    max-width: 100%;
+}
+
+.card p {
+    margin-bottom: 0.5rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
