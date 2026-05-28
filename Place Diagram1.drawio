@@ -1,0 +1,46 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="IOoH69Up27SJ7m_iaC--">
+    <mxGraphModel dx="774" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w5yetNTsZgUZZICRRBRo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Place Title" vertex="1">
+          <mxGeometry height="50" width="330" x="90" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w5yetNTsZgUZZICRRBRo-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Small Image" vertex="1">
+          <mxGeometry height="210" width="330" x="90" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w5yetNTsZgUZZICRRBRo-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data&lt;div&gt;&lt;br&gt;&lt;div&gt;Label: Value&lt;/div&gt;&lt;div&gt;Label: Value&lt;/div&gt;&lt;div&gt;Label: Value&lt;/div&gt;&lt;div&gt;Label: Value&lt;/div&gt;&lt;div&gt;Label: Value&lt;/div&gt;&lt;div&gt;Label: Value&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="330" x="90" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="w5yetNTsZgUZZICRRBRo-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Weather&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Label : Value&lt;/div&gt;&lt;div&gt;Label : Value&lt;/div&gt;&lt;div&gt;Label : Value&lt;/div&gt;&lt;div&gt;Label : Value&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="330" x="90" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="w5yetNTsZgUZZICRRBRo-6" edge="1" parent="1" source="w5yetNTsZgUZZICRRBRo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="w5yetNTsZgUZZICRRBRo-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w5yetNTsZgUZZICRRBRo-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="40" x="235" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="w5yetNTsZgUZZICRRBRo-7" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="w5yetNTsZgUZZICRRBRo-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="90" />
+            </Array>
+            <mxPoint x="90" y="300" as="sourcePoint" />
+            <mxPoint x="140" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5yetNTsZgUZZICRRBRo-8" edge="1" parent="1" source="w5yetNTsZgUZZICRRBRo-2" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="w5yetNTsZgUZZICRRBRo-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="260" as="sourcePoint" />
+            <mxPoint x="350" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5yetNTsZgUZZICRRBRo-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&#xa;&lt;span&gt;Standard footer content&lt;/span&gt;&lt;br&gt;&lt;span&gt;copyright • name • location&lt;/span&gt;&lt;br&gt;&lt;span&gt;Last Modified Date&lt;/span&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="330" x="90" y="680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
