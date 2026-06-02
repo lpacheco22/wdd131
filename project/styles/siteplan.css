@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #006D77;
+}
+
+section {
+    border: 1px solid #006D77;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+pre {
+    background-color: #E29578;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
