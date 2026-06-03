@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Review Form</title>
+
+    <meta name="description"
+        content="Submit a review of selected product with the form and rate features and installation experience for later review.">
+
+    <meta name="author" content="Luis Pacheco">
+
+    <link rel="stylesheet" href="styles/form.css">
+
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Product Review Form</h1>
+    </header>
+
+    <main>
+
+        <form method="get" action="review.html">
+
+            <div class="form-group">
+                <label for="product">Product Name *</label>
+
+                <select id="product" name="product" required>
+                    <option value="" disabled selected>
+                        Select a Product ...
+                    </option>
+                </select>
+            </div>
+
+            <fieldset>
+                <legend>Overall Rating *</legend>
+
+                <label for="star1">
+                    <input type="radio" id="star1" name="rating" value="1" required>
+                    ☆
+                </label>
+
+                <label for="star2">
+                    <input type="radio" id="star2" name="rating" value="2">
+                    ☆☆
+                </label>
+
+                <label for="star3">
+                    <input type="radio" id="star3" name="rating" value="3">
+                    ☆☆☆
+                </label>
+
+                <label for="star4">
+                    <input type="radio" id="star4" name="rating" value="4">
+                    ☆☆☆☆
+                </label>
+
+                <label for="star5">
+                    <input type="radio" id="star5" name="rating" value="5">
+                    ☆☆☆☆☆
+                </label>
+
+            </fieldset>
+
+            <div class="form-group">
+                <label for="installDate">
+                    Date of Installation *
+                </label>
+
+                <input type="date" id="installDate" name="installDate" required>
+            </div>
+
+            <fieldset>
+
+                <legend>Useful Features</legend>
+
+                <label for="durability">
+                    <input type="checkbox" id="durability" name="features" value="Durability">
+                    Durability
+                </label>
+
+                <label for="ease">
+                    <input type="checkbox" id="ease" name="features" value="Ease of Use">
+                    Ease of Use
+                </label>
+
+                <label for="performance">
+                    <input type="checkbox" id="performance" name="features" value="Performance">
+                    Performance
+                </label>
+
+                <label for="design">
+                    <input type="checkbox" id="design" name="features" value="Design">
+                    Design
+                </label>
+
+            </fieldset>
+
+            <div class="form-group">
+
+                <label for="review">
+                    Written Review (Optional)
+                </label>
+
+                <textarea id="review" name="review" rows="5"></textarea>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="username">
+                    User Name (Optional)
+                </label>
+
+                <input type="text" id="username" name="username">
+
+            </div>
+
+            <input type="submit" value="Submit Review" class="submit-btn">
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>
+            © <span id="year"></span> | Luis Pacheco | WDD 131
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
