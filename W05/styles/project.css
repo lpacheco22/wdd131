@@ -1,0 +1,181 @@
+:root {
+    --primary-color: #003049;
+    --secondary-color: #669bbc;
+    --accent-color: #f77f00;
+    --light-color: #f8f9fa;
+    --dark-color: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: var(--accent-color);
+}
+
+.active {
+    color: var(--accent-color);
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-text {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+
+.region-cards,
+.cards {
+    display: grid;
+    gap: 1rem;
+}
+
+.card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .15);
+
+    transition: transform .3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: .75rem 1rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--accent-color);
+}
+
+
+.form-section {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: .75rem;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--accent-color);
+}
+
+
+#message {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #e8f5e9;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: white;
+}
